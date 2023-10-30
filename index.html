@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content">
+
+				<div class="header__menu menu">
+					<div class="logo">
+						<div class="logo__black">Good</div>
+						<div class="logo__orange">Wall</div>
+						<select name="form[]" class="form lang__select">
+							<option><a href="#" value="1" selected="selected">RU</a></option>
+							<option><a href="#" value="2">UA</a></option>
+						</select>
+					</div>
+
+
+					<div class="menu__icon icon-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+
+					<nav class="menu__body">
+						<ul class="menu__list top-menu">
+
+							<li><a href="#" class="menu__link">Главная</a></li>
+							<li><a href="#information" class="menu__link">Преимущества</a></li>
+
+							<li class="dropdown-standart">
+								<a href="" class="menu__link dropdown">Услуги</a>
+								<ul class="submenu-standart">
+									<li><a href="#services">Механизированная штукатурка</a></li>
+									<li><a href="#services">Механизированная стяжка</a></li>
+								</ul>
+
+							</li>
+
+							<li><a href="#application-areas" class="menu__link">Блог</a></li>
+							<li><a href="#portfolio" class="menu__link">Портфолио</a></li>
+							<li><a href="#callback" class="menu__link">Контакты</a></li>
+
+						</ul>
+					</nav>
+
+					<div><a href="#" class="phone">+38 099 440 33 30</a></div>
+					<div><a href="#callback" class="callback__btn _popup-link">Заказать звонок</a></div>
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="about">
+				<div class="about__container _conteiner">
+					<div class="about__content">
+						<h1 class="about__title">Механизированная
+							штукатурка стен<br>
+							с материалом </h1>
+						<div class="about__info">
+							<div class="about__info1">
+								<picture>
+									<source srcset="img/icons/002-like.svg" type="image/webp"><img src="img/icons/002-like.svg"
+										alt="like">
+								</picture>
+								<p>Современные<br>немецкие <br> технологии</p>
+							</div>
+							<div class="about__info2">
+								<picture>
+									<source srcset="img/icons/001-support.svg" type="image/webp"><img
+										src="img/icons/001-support.svg" alt="support">
+								</picture>
+								<p>Бесплатная <br> консультация <br> и расчет</p>
+							</div>
+						</div>
+						<a href="#information" class="about__btn">Узнать подробнее <picture>
+								<source srcset="img/icons/arrows-down.svg" type="image/webp"><img
+									src="img/icons/arrows-down.svg" alt="">
+							</picture></a>
+
+					</div>
+
+					<div class="about__img">
+						<picture>
+							<source srcset="img/bg/unnamed.webp" type="image/webp"><img src="img/bg/unnamed.png" alt="">
+						</picture>
+					</div>
+				</div>
+			</div>
+			<div class="information" id="information">
+				<div class="information__container _conteiner">
+					<div class="information__content">
+						<h2 class="information__title">
+							Почему мы
+						</h2>
+						<p class="information__text">
+							Goodwall предлагает прогрессивный способ приготовления
+							и нанесения смеси, ускоряющий привычный ручной способ.
+							Машина перемешивает смесь до однородной массы и подает
+							ее под давлением, что дает более хороший контакт
+							с поверхностью стены и не оставляет полостей.
+						</p>
+						<div style="display: flex; align-items: center;">
+							<div class="informatioin__item">
+								<picture>
+									<source srcset="img/bg/wallet_PNG7509.webp" type="image/webp"><img
+										src="img/bg/wallet_PNG7509.png" alt="">
+								</picture>
+								<p>Фиксируем стоимость</p>
+							</div>
+							<div class="informatioin__item">
+								<picture>
+									<source srcset="img/bg/pngwing.com(1).webp" type="image/webp"><img
+										src="img/bg/pngwing.com(1).png" alt="">
+								</picture>
+								<p>Сами закупаем материал</p>
+							</div>
+							<div class="informatioin__item">
+								<picture>
+									<source srcset="img/bg/hands_PNG98387.webp" type="image/webp"><img
+										src="img/bg/hands_PNG98387.png" alt="">
+								</picture>
+								<p>Гарантируем качество</p>
+							</div>
+						</div>
+					</div>
+					<div class="information__img">
+						<picture>
+							<source srcset="img/mashinaya-shtykatyrka.webp" type="image/webp"><img
+								src="img/mashinaya-shtykatyrka.jpg" alt="">
+						</picture>
+					</div>
+				</div>
+			</div>
+			<div class="services" id="services">
+				<div class="services__conteiner _conteiner">
+					<div class="services__content">
+						<h2 class="services__title">
+							Наши услуги
+						</h2>
+						<!-- <div class="services__slider"> -->
+						<div class="_conteiner">
+							<div class="services__slider swiper-container">
+								<!-- Additional required wrapper -->
+								<div class="services__slider__wrapper swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide" style="width: 420px">
+										<div class="image-slider__image">
+											<picture>
+												<source srcset="img/sl1.webp" type="image/webp">
+												<img src="img/sl1.jpg" alt="">
+											</picture>
+											<div class="botoom__content">
+												<div class="swiper-slider__text">
+													Механизированная штукатурка
+												</div>
+												<div class="swiper-slider__price">
+													150 грн/м<sup>2</sup>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide" style="width: 420px">
+										<div class="image-slider__image">
+											<picture>
+												<source srcset="img/sl2.webp" type="image/webp">
+												<img src="img/sl2.jpg" alt="">
+											</picture>
+											<div class="botoom__content">
+												<div class="swiper-slider__text">
+													Механизированная стяжка
+												</div>
+												<div class="swiper-slider__price">
+													150 грн/м<sup>2</sup>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<!-- If we need navigation buttons -->
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+
+							</div>
+						</div>
+
+						<!-- </div> -->
+						<div class="services__best-price">
+							<h3 class="best-price__title">
+								Нашли вариант дешевле?
+							</h3>
+							<div class="best-price__text">
+								Если Вы нашли цену ниже на аналогичную работу в другой компании,
+								то у нас Вы можете получить эту же работу по самой низкой цене!
+							</div>
+							<div class="best-price__forms">
+								<form action="#" class="form">
+									<div class="form__line">
+										<input id="input" autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+											data-value="Имя" class="input">
+										<input id="input" autocomplete="off" type="tel" name="form[]" data-error="Ошибка"
+											data-value="Телефон" class="input _req">
+										<input type="submit" name="submitt" class="best-price__btn btn" value="Получить цену">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="steps__bg">
+				<div class="steps">
+					<div class="steps__container">
+						<div class="steps__title">
+							Этапы работы
+						</div>
+						<div class="steps__content">
+							<div class="step__item">
+								<div class="step__img">
+									<div>
+										<picture>
+											<source srcset="img/icons/001-telephone.svg" type="image/webp"><img
+												src="img/icons/001-telephone.svg" alt="">
+										</picture>
+									</div>
+									<div class="step__title">
+										Заявка
+									</div>
+									<div class="step__text">
+										Оставьте заявку на сайте или по телефону
+									</div>
+								</div>
+							</div>
+							<div class="step__item">
+								<div class="step__img">
+									<div>
+										<picture>
+											<source srcset="img/icons/003-settings.svg" type="image/webp"><img
+												src="img/icons/003-settings.svg" alt="">
+										</picture>
+									</div>
+									<div class="step__title">
+										Замер и расчет
+									</div>
+									<div class="step__text">
+										Бесплатно выезжаем на объект, проводим обмер и рассчитываем итоговую точную стоимость
+									</div>
+								</div>
+							</div>
+							<div class="step__item">
+								<div class="step__img">
+									<div>
+										<picture>
+											<source srcset="img/icons/002-clipboard.svg" type="image/webp"><img
+												src="img/icons/002-clipboard.svg" alt="">
+										</picture>
+									</div>
+									<div class="step__title">
+										Договор
+									</div>
+									<div class="step__text">
+										Согласуем смету
+										и подписываем договор
+									</div>
+								</div>
+							</div>
+							<div class="step__item">
+								<div class="step__img">
+									<div>
+										<picture>
+											<source srcset="img/icons/005-stamp.svg" type="image/webp"><img
+												src="img/icons/005-stamp.svg" alt="">
+										</picture>
+									</div>
+									<div class="step__title">
+										Завоз оборудования
+									</div>
+									<div class="step__text">
+										Оставьте заявку на сайте или по телефону
+									</div>
+								</div>
+							</div>
+							<div class="step__item">
+								<div class="step__img">
+									<div>
+										<picture>
+											<source srcset="img/icons/004-settings-1.svg" type="image/webp"><img
+												src="img/icons/004-settings-1.svg" alt="">
+										</picture>
+									</div>
+									<div class="step__title">
+										Работа
+									</div>
+									<div class="step__text">
+										Оставьте заявку на сайте или по телефону
+									</div>
+								</div>
+							</div>
+							<div class="step__item">
+								<div class="step__img">
+									<div>
+										<picture>
+											<source srcset="img/icons/006-star.svg" type="image/webp"><img
+												src="img/icons/006-star.svg" alt="">
+										</picture>
+									</div>
+									<div class="step__title">
+										Приемка и оплата работы
+									</div>
+									<div class="step__text">
+										Вы можете оплатить наши услуги только после тщательной проверки
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gallery" id="portfolio">
+				<div class="gallery__container _container">
+					<h2 class="gallery__title">
+						Портфолио работ
+					</h2>
+				</div>
+				<div class="gallery-block _gallery">
+					<a href="img/03.jpg" class="gallery-block__item">
+						<picture>
+							<source srcset="img/03.webp" type="image/webp"><img src="img/03.jpg" alt="">
+						</picture>
+					</a>
+					<a href="img/04.jpg" class="gallery-block__item">
+						<picture>
+							<source srcset="img/04.webp" type="image/webp"><img src="img/04.jpg" alt="">
+						</picture>
+					</a>
+					<a href="img/05.jpg" class="gallery-block__item">
+						<picture>
+							<source srcset="img/05.webp" type="image/webp"><img src="img/05.jpg" alt="">
+						</picture>
+					</a>
+					<a href="img/06.jpg" class="gallery-block__item">
+						<picture>
+							<source srcset="img/06.webp" type="image/webp"><img src="img/06.jpg" alt="">
+						</picture>
+					</a>
+					<a href="img/06.jpg" class="gallery-block__item">
+						<picture>
+							<source srcset="img/06.webp" type="image/webp"><img src="img/06.jpg" alt="">
+						</picture>
+					</a>
+					<a href="img/05.jpg" class="gallery-block__item">
+						<picture>
+							<source srcset="img/05.webp" type="image/webp"><img src="img/05.jpg" alt="">
+						</picture>
+					</a>
+					<a href="img/04.jpg" class="gallery-block__item">
+						<picture>
+							<source srcset="img/04.webp" type="image/webp"><img src="img/04.jpg" alt="">
+						</picture>
+					</a>
+					<a href="img/03.jpg" class="gallery-block__item">
+						<picture>
+							<source srcset="img/03.webp" type="image/webp"><img src="img/03.jpg" alt="">
+						</picture>
+					</a>
+				</div>
+			</div>
+			<div class="application-areas__bg">
+				<div class="application-areas" id="application-areas">
+					<div class="application-areas__container">
+						<div class="application-areas__title">
+							Области применения
+						</div>
+						<div class="application-areas__text">
+							<p>
+								Механизированная штукатурка стен и потолков применяется на различных типах объектах, какие либо
+								ограничения или нюансы, связанные с местом проведения работ практически отсутствуют. Основная
+								доля наших
+								заказчиков приходится на собственников квартир в новостройках либо владельцев загородных домов.
+								Для Вас
+								мы предлагаем высококачественную гипсовую штукатурку стен с глянцеванием под оклейку обоями или
+								покраску.
+								<br><br>
+								Не менее выгодным наше предложение будет и для владельцев коммерческих площадей с большими
+								объемами
+								работ. Как правило, это торговые комплексы, офисные и административные здания, школы или
+								спортивные
+								учреждения.
+								Мы более 8 лет успешно используем данную технологию на объектах Москвы
+								и в Московской области. Заказать работы могут как юридические,
+								так и физические лица, связавшись с нами по телефону или
+								посредством электронной почты.
+							</p>
+							<p>
+								Механизированная штукатурка стен и потолков применяется на различных типах объектах, какие либо
+								ограничения или нюансы, связанные с местом проведения работ практически отсутствуют. Основная
+								доля наших
+								заказчиков приходится на собственников квартир в новостройках либо владельцев загородных домов.
+								Для Вас
+								мы предлагаем высококачественную гипсовую штукатурку стен с глянцеванием под оклейку обоями или
+								покраску.
+								<br><br>
+								Не менее выгодным наше предложение будет и для владельцев коммерческих площадей с большими
+								объемами
+								работ. Как правило, это торговые комплексы, офисные и административные здания, школы или
+								спортивные
+								учреждения.
+								Мы более 8 лет успешно используем данную технологию на объектах Москвы
+								и в Московской области. Заказать работы могут как юридические,
+								так и физические лица, связавшись с нами по телефону или
+								посредством электронной почты.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="callback" id="callback">
+				<div class="callback__bg">
+					<div class="callback__container">
+						<div class="callback__title">
+							Связаться с нами
+						</div>
+						<div class="callback__content">
+							<div class="callback__item">
+								<div class="callback__forms">
+
+									<form method="post" action="#">
+										<div class="form__content">
+											<div class="name__tell">
+												<label for="input_name" class="form__label">Имя
+													<input id="input_name" autocomplete="off" type="text" name="form[]"
+														data-error="Ошибка" data-value="" class="input _req">
+												</label>
+												<label for="input_tel" class="form__label">Телефон
+													<input id="input_tel" autocomplete="off" type="text" name="form[]"
+														data-error="Ошибка" data-value="" class="input _req">
+												</label>
+											</div>
+											<label for="input_mess" class="form__label">Сообщение
+												<textarea id="input_mess" autocomplete="off" type="text" name="messenge[]"
+													class="input"></textarea>
+											</label>
+											<input type="submit" class="best-price__btn btn" value="Отправить">
+										</div>
+									</form>
+
+								</div>
+								<div class="callback__info" style="font-weight: 700;">
+									<div style="display: flex;">
+										<picture>
+											<source srcset="img/icons/002-call.svg" type="image/webp"><img
+												src="img/icons/002-call.svg" alt="">
+										</picture>
+										<div style="margin-bottom: 0px;"><a href="tel:+380994403330">+38 099
+												440 33 30</a> <br><a href="tel:+380994403330">+38 099
+												440 33 30</a></div>
+									</div>
+									<div>
+										<picture>
+											<source srcset="img/icons/whatsapp.svg" type="image/webp"><img
+												src="img/icons/whatsapp.svg" alt="">
+										</picture><a href="https://wa.me/380994403330">Написать в
+											WhatsApp</a>
+									</div>
+									<div>
+										<picture>
+											<source srcset="img/icons/001-email.svg" type="image/webp"><img
+												src="img/icons/001-email.svg" alt="">
+										</picture><a href="mailto://info@goodwall.com.ua">info@goodwall.com.ua</a>
+									</div>
+									<div>
+										<picture>
+											<source srcset="img/icons/003-alarm-clock.svg" type="image/webp"><img
+												src="img/icons/003-alarm-clock.svg" alt="">
+										</picture>Ежедневно с 9:00 до 22:00
+									</div>
+								</div>
+							</div>
+							<div class="callback__img">
+								<picture>
+									<source srcset="img/bg/mashinnaya-stukaturka-vasilkov.webp" type="image/webp"><img
+										src="img/bg/mashinnaya-stukaturka-vasilkov.png" alt="">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__content _container">
+				<div class="logo">
+					<div class="logo__white">Good</div>
+					<div class="logo__orange">Wall</div>
+				</div>
+				<div style="display: flex;">
+					<div><a href="#" class="phone-white">+38 099 440 33 30</a></div>
+					<div><a href="#callback" style="color: white;" class="callback__btn _popup-link">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="popup popup_callback">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__close"></div>
+				<div class="best-price__forms">
+					<form action="#" class="form">
+						<div class="form__line">
+							<input style="font-size: 12px;" id="inp" autocomplete="off" type="text" name="form[]"
+								data-error="Ошибка" data-value="Имя" class="input">
+						</div>
+						<div class="form__line">
+							<input style="font-size: 12px;" id="inp" autocomplete="off" type="tel" name="form[]"
+								data-error="Ошибка" data-value="Телефон" class="input _req">
+						</div>
+						<button type="submit" class="best-price__btn btn">Заказать звонок</button>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_massagename-message">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__close"></div>
+			</div>
+		</div>
+	</div>
+	<div class="popup popup_video">
+		<div class="popup__content">
+			<div class="popup__body">
+				<div class="popup__close popup__close_video"></div>
+				<div class="popup__video _video"></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<!--<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+
+	<script src="js/vendors.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
